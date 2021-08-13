@@ -217,7 +217,7 @@ restart = () => {
   players = [];
   gameOver = false;
   board = [];
-  result.firstChild.remove();
+  result.firstElementChild.remove();
   playAgainBtn.classList.add('hide');
   result.classList.add('hide');
   while( i < childrens.length){
